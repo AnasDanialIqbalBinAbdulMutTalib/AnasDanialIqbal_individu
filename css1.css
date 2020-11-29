@@ -1,0 +1,46 @@
+.about-area{
+    padding-top: 5%;
+}
+body{
+    background: #131f33;
+}
+
+.about-img{
+    position: relative;
+}
+.about-img:before{
+    position: absolute;
+    content:'';
+    right:670px;
+    top: 30px;
+    border: 10px solid rgba(255,255,255,0.5);
+    width: 40%;
+    height: 100%;
+}
+.about-img img{
+    width: 40%;
+    left: 150px;
+}
+.about-text{
+    padding-top: 20%;
+}
+.about-text h2{
+    color: #fff;
+    font-family: lobster;
+    font-size: 50px;
+}
+.about-text p{
+    font-size: 18px;
+    color: #ddd;
+}
+.about-text a{
+    background: orangered;
+    color: #fff;
+    padding: 7px 15px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.Work-img{
+    width: 40px;
+    height: 80;
+}
